@@ -13,6 +13,8 @@
 # (#{area_sq_ft} square ft)."
 
 
+# Further exploration.
+
 SQFOOT_TO_SQFEET = 144
 SQFOOT_TO_SQCENT = 929.03
 
