@@ -1,0 +1,1 @@
+1.upto(99) {|j| puts j if j.even?}
