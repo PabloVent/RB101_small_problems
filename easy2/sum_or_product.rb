@@ -49,12 +49,12 @@ require 'pry'
 # further Exploration
 
 def sum(arr)
-  arr.reduce(:+)
+  arr.inject(:+)
 end
 
 def product(arr)
   arr = arr - [0]
-  arr.reduce(:*)
+  arr.inject(:*)
 end
 
 def validate_integer?(number_input)
