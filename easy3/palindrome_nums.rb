@@ -1,5 +1,3 @@
-require 'pry'
-
 def palindrome_nums?(num)
   num.to_s == num.to_s.reverse
 end
